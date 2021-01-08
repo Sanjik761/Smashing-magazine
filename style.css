@@ -1,0 +1,81 @@
+header {
+  background-color: #D33A2C;
+}
+
+header img {
+  background-color: #D33A2C;
+  margin: 25px 10px 10px 40px;
+}
+
+header ul li {
+  display: inline;
+  margin: 0px 12px;
+  padding: 15px 15px;
+  border-radius: 10px;
+  
+}
+
+header ul li:hover {
+  background-color: #00000033;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-family: 800;
+}
+
+.more:hover {
+  background-color: #00000066;
+}
+
+.more a {
+  margin-right: 20px;
+}
+
+.more {
+  background-image: url(https://www.smashingmagazine.com/images/icons/menu-cat.svg);
+  background-repeat: no-repeat;
+  background-size: 35px;
+  padding: 15px 18px;
+  background-color: #00000033;
+  background-position: right;
+}
+
+header input {
+  padding: 16px 75px;
+  border-radius: 10px;
+  border: 1px solid white;
+  margin-left: 40px;
+  background: url(https://www.edo.io/static/img/search.png) no-repeat;
+  background-size: 25px;
+  background-position: 15px center;
+  background-color: white;
+}
+
+.center-section {
+ display: flex;
+
+}
+
+.left-section {
+  margin: 100px 0 0 100px;
+  /* background-color: cornflowerblue; */
+  width: 50%;
+}
+
+.left-section-flex {
+  display: flex;
+
+}
+
+.photo-kelvin {
+  display: inline;
+  
+}
+
+.right-section {
+  background-color: darkmagenta;
+}
