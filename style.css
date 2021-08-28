@@ -1,4 +1,4 @@
-header,
+﻿header,
 header img {
   background-color: #D33A2C;
 }
@@ -38,7 +38,6 @@ header ul li a {
   background-image: url(https://www.smashingmagazine.com/images/icons/menu-cat.svg);
   background-repeat: no-repeat;
   background-size: 35px;
-  padding: 15px 18px;
   background-color: #00000033;
   background-position: right;
 }
@@ -65,7 +64,7 @@ header input {
   margin: 100px 0 0 100px;
   width: 50%;
 }
-
+ 
 .left-section-flex {
   margin-bottom: 35px;
 }
@@ -994,7 +993,7 @@ footer {
   padding: 10px;
 }
 
-.foot-ul h4 {
+footer h4 {
   color: white;
   padding: 50px;
   font-size: 17px;
@@ -1047,6 +1046,14 @@ footer {
   font-size: 17px;
 }
 
+.cat-nest {
+  position: absolute;
+  width: 200px;
+  bottom: 30px;
+  left: 10px;
+  display: none;
+}
+
 .foot-icon {
   position: absolute;
   width: fit-content;
@@ -1069,6 +1076,16 @@ footer {
   background-color: rgb(35, 35, 56);
 }
 
+.foot-ul ul li::before {
+  content: "•";
+  position: relative;
+  top: 5px;
+  right: 10px;
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.5);
+  /* margin-right: 5px; */
+ 
+}
 
 .fa-chevron-up {
   font-size: 30px;
@@ -1086,5 +1103,176 @@ footer {
   .center-section {
     display: grid;
     grid-template-columns: 1fr;
+  }
+
+  .word-noam h1,
+  .word-suzanne h1,
+  .word-kelvin h1 {
+    width: 450px;
+  }
+
+  .back-color {
+    width: 550px;
+    text-align: center;
+  }
+
+  .text-left p {
+    width: 630px;
+  }
+
+  .smash-div {
+    width: 330px;
+    padding: 7px 0;
+  }
+
+  .smash-div a {
+    font-size: 18px;
+    padding: 0;
+  }
+
+  .right-section img {
+    left: 100px;
+  }
+
+  .title-see5,
+  .title-see2,
+  .title-see {
+    margin: 60px auto;
+  }
+
+  .section-4,
+  .section-3,
+  .section-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .sec-1 {
+    width: 280px;
+  }
+
+  .sec-card-1 h2 a {
+    font-size: 21px;
+  }
+
+  .sec-card-1 p {
+    font-size: 16px;
+  }
+
+  .deg-commit,
+  .deg-our,
+  .deg-post {
+    width: 400px;
+    position: absolute;
+    left: 110px;
+    top: 25px;
+    transform: rotate(0deg);
+    letter-spacing: 3px;
+    font-size: 13px;
+    font-weight: 800;
+  }
+  
+  .left-editor {
+    display: none;
+  }
+
+  .right-sec-photo img {
+    left: 160px;
+  }
+
+  .right-sec-photo p {
+    font-size: 18px;
+  }
+
+  .right-sec-photo {
+    width: 550px;
+  }
+
+  .sec-click h2 a {
+    font-size: 40px;
+  }
+
+  .sec-click p {
+    font-size: 19px;
+    line-height: 30px;   
+  }
+
+  .section-carton {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .word-person p {
+    font-size: 17px;
+    width: 350px;
+  }
+
+  .sec-cont-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .word-ahmad {
+    width: 450px;
+  }
+
+  .word-ahmad h1 {
+    font-size: 25px;
+  }
+
+  .foot-ul ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: left;
+    margin-left: 100px;
+  }
+
+  .foot-ul ul li a {
+    font-size: 16px;
+  }
+
+  .smile-cat {
+    background-image: none;
+  }
+  
+  .smile-cat p {
+    font-size: 14px;
+  }
+
+  .smile-cat ul li a {
+    font-size: 14px;
+  }
+
+  .foot-icon {
+    display: none;
+  }
+
+  footer {
+    background-image: none;
+  }
+  
+  .cat-nest {
+    display: inline;
+  }
+}
+
+@media only screen and (max-width: 425px){
+  header li:nth-last-child(7){
+    display: none;
+  }   
+
+  header img {
+    margin: 20px 15px 0 15px; 
+  }
+
+  header .more {
+    margin-left: 200px;
+  }
+
+  header input {
+    margin: 0 10px 10px 20px;
+    padding: 10px 50px;
   }
 }
