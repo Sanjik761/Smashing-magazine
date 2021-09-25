@@ -545,7 +545,7 @@ header input {
   font-size: 52px;
   font-weight: 700;
   text-decoration-color: #4399d9;
-  letter-spacing: ;
+  /* letter-spacing: ; */
 }
 
 .sec-click p {
@@ -1083,8 +1083,6 @@ footer h4 {
   right: 10px;
   font-size: 30px;
   color: rgba(0, 0, 0, 0.5);
-
-  /* margin-right: 5px; */
 }
 
 .fa-chevron-up {
