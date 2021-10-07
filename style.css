@@ -337,7 +337,6 @@ header input {
 .sec-1:hover {
   transform: scale(1.1);
   background-color: white;
-  /* transition: ease 0.3s; */
   box-shadow: 0 0 25px 0 rgba(168, 166, 166, 0.33);
   width: 100%;
   padding: 20px 30px;
@@ -365,7 +364,6 @@ header input {
 .sec-card-1 h4 {
   margin: 30px 0;
   color: #666;
-  /* font-size: 18px; */
   font-weight: 900;
   font-family: cursive;
 }
@@ -545,7 +543,6 @@ header input {
   font-size: 52px;
   font-weight: 700;
   text-decoration-color: #4399d9;
-  /* letter-spacing: ; */
 }
 
 .sec-click p {
